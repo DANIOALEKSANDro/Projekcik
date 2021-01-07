@@ -71,9 +71,15 @@ form.example input[type=text] {
   }
   header {
       background-color: #fd9644;
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 200;
+      padding: 5px;
   }
   section{
       min-height: 200px;
+      background-color: #fed330;
   }
 
   aside{ /* ASIDE */
