@@ -10,18 +10,64 @@ body{
 nav{ /* NAV */
     position: sticky;
     top: 0px;
+    z-index: 15;
+    background-color: #fc5c65;
+    height: 120px;
+    
 }
 .navbar{
-  
-    background-color: #e67e22;
-    height: 65px;
+  margin-left: 40%;
+    
 }
-.navbar-content p{
+.navbar-content{
     margin: 0px;
     padding: 15px 15px 15px 15px;
-    font-size: 25px;
-    text-align: center;
+    font-size: 20px;
+
+    
 }
+a{
+    text-decoration: none;
+}
+.navbar-content a{
+  color: #FFF;
+  padding-top: 50px;
+  padding: 5px;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 20%;
+    background: #f1f1f1;
+    float: center;
+   text-align: center;
+    
+    
+  }
+  
+  form.example button {
+    width: 5%;
+    padding: 10px;
+    background: #192a56;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 aside{ /* ASIDE */
     min-height: 200px;
     height: auto;
@@ -29,7 +75,7 @@ aside{ /* ASIDE */
 footer{ /* FOOTER */
     position: sticky;
     height: 90px;
-    background-color: rgb(170, 60, 16);
+    background-color: #55efc4;
     color: white;
     text-align: center;
     padding: 3px 15px 15px 15px;
