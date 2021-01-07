@@ -26,10 +26,14 @@ aside{ /* ASIDE */
     min-height: 200px;
     height: auto;
 }
+.prefooter{
+    height: 20px;
+    background-color: #26de81;
+}
 footer{ /* FOOTER */
-    position: sticky;
+    position: relative;
     height: 90px;
-    background-color: rgb(170, 60, 16);
+    background-color: #2bcbba;
     color: white;
     text-align: center;
     padding: 3px 15px 15px 15px;
