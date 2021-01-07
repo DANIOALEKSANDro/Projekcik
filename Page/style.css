@@ -34,7 +34,9 @@ a{
   padding-top: 50px;
   padding: 5px;
 }
-
+.navbar-content a:hover{
+  color:#2f3542
+}
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -50,7 +52,7 @@ form.example input[type=text] {
   form.example button {
     width: 5%;
     padding: 10px;
-    background: #192a56;
+    background: #2f3542;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
