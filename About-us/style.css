@@ -1,42 +1,38 @@
-* { /* BODY */
+* {                              /* BODY */
     box-sizing: border-box;
 }
-body{
+body {
     font-family: arial; 
     margin: 0px;
     padding: 0px;
     height: 5000px;
 }
-nav{ /* NAV */
+nav {                            /* NAV */
     position: sticky;
     top: 0px;
     z-index: 15;
     background-color: #fc5c65;
     height: 120px;
-    
 }
-.navbar{
+.navbar {
   text-align: center;
-    
 }
-.navbar-content{
+.navbar-content {
     margin: 0px;
     padding: 15px 15px 15px 15px;
     font-size: 20px;
-
-    
 }
-a{
+a {
     text-decoration: none;
 }
-.navbar-content a{
+.navbar-content a {
   color: #FFF;
   padding-top: 50px;
   padding: 5px;
 }
-.navbar-content a:hover{
+.navbar-content a:hover {
   color:#2f3542
-}
+}                               /* SEARCH-BAR */
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -45,11 +41,8 @@ form.example input[type=text] {
     background: #f1f1f1;
     float: center;
     text-align: center;
-    
-    
-  }
-  
-  form.example button {
+}
+form.example button {
     width: 5%;
     padding: 10px;
     background: #2f3542;
@@ -58,41 +51,34 @@ form.example input[type=text] {
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
-    
-  }
-  form.example button:hover {
+}
+form.example button:hover {
     background: #0b7dda;
-  }
-  
-  form.example::after {
+}
+form.example::after {
     content: "";
     clear: both;
     display: table;
-  }
-  header {
-      background-color: #fd9644;
-      color: white;
-      text-align: center;
-      font-size: 30px;
-      font-weight: 200;
-      padding: 5px;
-  }
-  section{
-      min-height: 200px;
-      background-color: #fed330;
-  }
-
-  aside{ /* ASIDE */
+}                               /* HEADER */
+header {
+    background-color: #fd9644;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 5px;
+}                               /* ASIDE */
+aside {
     background-color: #fed330;
     min-height: 200px;
     height: auto;
     float: left;
-}
+}                               /* PRE-FOOTER */
 .prefooter{
     height: 20px;
     background-color: #26de81;
-}
-footer{ /* FOOTER */
+}                               /* FOOTER */
+footer{
     position: relative;
     height: 90px;
     background-color: #2bcbba;
