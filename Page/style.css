@@ -1,4 +1,4 @@
-* {
+* { /* BODY */
     box-sizing: border-box;
 }
 body{
@@ -7,7 +7,7 @@ body{
     padding: 0px;
     height: 5000px;
 }
-nav{
+nav{ /* NAV */
     position: sticky;
     top: 0px;
 }
@@ -22,11 +22,15 @@ nav{
     font-size: 25px;
     text-align: center;
 }
-footer{
+aside{ /* ASIDE */
+    min-height: 200px;
+    height: auto;
+}
+footer{ /* FOOTER */
     position: sticky;
     height: 90px;
     background-color: rgb(170, 60, 16);
     color: white;
     text-align: center;
-    padding: 15px 15px 15px 15px;
+    padding: 3px 15px 15px 15px;
 }
