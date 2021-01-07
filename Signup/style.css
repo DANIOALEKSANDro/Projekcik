@@ -1,0 +1,26 @@
+* { /* BODY */
+    box-sizing: border-box;
+}
+body{
+    font-family: arial; 
+    margin: 0px;
+    padding: 0px;
+    background-color: #8854d0;
+}
+.authentication{
+    text-align: center;
+}
+.register{
+    background-color: #2d98da;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px  #0e172f;
+    border-radius: 25px;
+}
+.login{
+    background-color: #4b7bec;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px #0e172f;
+    border-radius: 25px;
+}
