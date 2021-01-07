@@ -7,20 +7,73 @@ body{
     padding: 0px;
     background-color: #8854d0;
 }
-.authentication{
-    text-align: center;
-}
+
 .register{
     background-color: #2d98da;
-    height: 300px;
+    height: 345px;
     margin: 50px;
     box-shadow: 5px 5px 5px  #0e172f;
     border-radius: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
 }
 .login{
     background-color: #4b7bec;
-    height: 300px;
+    height: 345px;
     margin: 50px;
     box-shadow: 5px 5px 5px #0e172f;
     border-radius: 25px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-25 {
+    float: left;
+    width: 12%;
+}
+.col-75 {
+    float: left;
+    width: 40%;
+
+}
+.col-75 :placeholder-shown{
+    color: white;
+}
+h3{
+    color: white;
+}
+.form {
+  width: 40%;
+  margin: 200px auto;
+}
+.row label{
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+.row input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    border: 2px solid ;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: white;
+    color: #16a085;
+}
+.button{
+    background-color: #152449;
+    margin-top: 15px;
+      border-style: inset;
+       border-radius: 8px;
+        border-color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 40px;
 }
