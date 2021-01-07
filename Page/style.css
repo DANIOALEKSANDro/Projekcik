@@ -16,7 +16,7 @@ nav{ /* NAV */
     
 }
 .navbar{
-  margin-left: 40%;
+  text-align: center;
     
 }
 .navbar-content{
@@ -42,7 +42,7 @@ form.example input[type=text] {
     width: 20%;
     background: #f1f1f1;
     float: center;
-   text-align: center;
+    text-align: center;
     
     
   }
