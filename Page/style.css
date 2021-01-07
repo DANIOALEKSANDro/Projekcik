@@ -7,12 +7,15 @@ body{
     padding: 0;
     height: 5000px;
 }
+nav{
+    position: sticky;
+    top: 0;
+}
 .navbar{
+  
     background-color: #e67e22;
     height: 65px;
-    position: fixed;
-    top: 0; 
-    width: 100%; 
+
 }
 .navbar-content p{
     margin: 0;
