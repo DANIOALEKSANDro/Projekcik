@@ -59,6 +59,10 @@ form.example input[type=text] {
     
   }
   
+  header {
+      background-color: #fd9644;
+  }
+
   form.example button:hover {
     background: #0b7dda;
   }
@@ -68,9 +72,11 @@ form.example input[type=text] {
     clear: both;
     display: table;
   }
-aside{ /* ASIDE */
+  aside{ /* ASIDE */
+    background-color: #fed330;
     min-height: 200px;
     height: auto;
+    float: left;
 }
 .prefooter{
     height: 20px;
